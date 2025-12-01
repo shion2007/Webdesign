@@ -28,19 +28,20 @@
             }
             header p{margin-left: 20px;}
             /* ナビゲーション CSS　*/
-            nav {background-color:burlywood;}
             nav {
                 padding-top:5px;
                 padding-bottom:5px;
-                background-color:burlywood;
+                background-color: burlywood;
             }  
-                list-style-type: none;
+            nav ul{list-style: none;}
             nav li{
                 width: 298px;
                 height: 38px;
-                margin: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
                 padding: 5px;
                 line-height: 38px; 
+                float: left;
                 border: solid 1px brown;
                 background-color: bisque;
             }
@@ -51,19 +52,29 @@
                 padding-bottom:10px;
                 padding-left:20px;
                 background-color:antiquewhite;
-            }
+                overflow:hidden;
             h2{
                 font-size:24px;
                 color:darkred;
             }
+            .sweets{
+                width:270px;
+                padding:10px;
+                margin-top:20px;
+                margin-right:20px;
+                float:left;
+                background-color:burlywood;
+            }    
             h3{
                 font-size:20px;
                 color:brown;
             }
-            /* フッター CSS　*/
+            /* フッター CSS */
             footer{
+                clear:both;
                 width:600px;
                 padding:20px;
+                text-align:right;
                 background-color:bisque;
             }
         </style>
@@ -87,12 +98,12 @@
                     <section class="sweets">
                         <h3>モンブラン</h3>
                         <p>今年採れた国内産の栗を使用したケーキです。</p>
-                        <img src="images/blanc1.jpg" alt="モンブランの写真">
+                        <img src="images/blanc2.jpg" alt="モンブランの写真">
                     </section>
                     <section class="sweets">
                         <h3>マカロン</h3>
                         <p>沖縄産の砂糖を使用したマカロンです。</p>
-                        <img src="images/macron1.jpg" alt="マカロンの写真">
+                        <img src="images/macron2.jpg" alt="マカロンの写真">
                     </section>
             </article>
         </main>
